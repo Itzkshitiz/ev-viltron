@@ -1,0 +1,68 @@
+/* ==========================================================================
+   VILTRON EV Charging Infrastructure - Design System Tokens
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Deep Obsidian & Cyber Electric Accents */
+  --bg-darkest: #05070a;
+  --bg-primary: #080c14;
+  --bg-secondary: #0f1523;
+  --bg-tertiary: #172033;
+  --bg-card: rgba(15, 21, 35, 0.72);
+  --bg-card-hover: rgba(23, 32, 51, 0.88);
+  --bg-glass: rgba(255, 255, 255, 0.03);
+  --bg-glass-strong: rgba(15, 21, 35, 0.85);
+
+  /* Electric Neon Accents */
+  --accent-green: #00F59B;
+  --accent-green-bright: #10ffaa;
+  --accent-green-dark: #00b371;
+  --accent-green-glow: rgba(0, 245, 155, 0.35);
+  --accent-green-subtle: rgba(0, 245, 155, 0.12);
+
+  --accent-cyan: #00E5FF;
+  --accent-cyan-bright: #33ecff;
+  --accent-cyan-glow: rgba(0, 229, 255, 0.3);
+  --accent-cyan-subtle: rgba(0, 229, 255, 0.1);
+
+  --accent-blue: #2563EB;
+  --accent-amber: #F59E0B;
+
+  /* Typography Colors */
+  --text-primary: #FFFFFF;
+  --text-secondary: #CBD5E1;
+  --text-muted: #8392A5;
+  --text-dark: #0F172A;
+
+  /* Borders & Dividers */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-glass: rgba(255, 255, 255, 0.14);
+  --border-neon: rgba(0, 245, 155, 0.35);
+  --border-neon-cyan: rgba(0, 229, 255, 0.35);
+
+  /* Shadows & Glows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.75);
+  --glow-green: 0 0 25px rgba(0, 245, 155, 0.28);
+  --glow-cyan: 0 0 25px rgba(0, 229, 255, 0.25);
+  --glow-mixed: 0 0 35px rgba(0, 245, 155, 0.2), 0 0 60px rgba(0, 229, 255, 0.15);
+
+  /* Typography Font Stacks */
+  --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+
+  /* Layout Spacing */
+  --container-max-width: 1320px;
+  --header-height: 84px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
